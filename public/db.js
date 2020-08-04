@@ -8,7 +8,7 @@ request.onupgradeneeded = function(event) {
 };
 
 request.onsuccess = function(event) {
-    db. event.target.result;
+    db = event.target.result;
 
     //see if app is online before reading
     if (navigator.onLine) {
