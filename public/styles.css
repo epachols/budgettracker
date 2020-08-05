@@ -1,6 +1,10 @@
 body {
   font-size: 120%;
   font-family: Arial;
+  background: linear-gradient(217deg, rgba(0, 255, 119, 0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(27, 133, 27, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(8, 93, 26, 0.8), rgba(0,0,255,0) 70.71%);
+  
 }
 
 button, input {
@@ -13,13 +17,14 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #39c8a5;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #173624c5;
+  color: floralwhite
 }
 
 .error {
