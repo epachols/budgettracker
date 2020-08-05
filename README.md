@@ -1,61 +1,66 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# BudgetTracker PWA
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+  |      Table of Contents:       |
+  |-------------------------------|
+  | [Installation](#installation) |
+  |        [Usage](#usage)        |
+  | [Contributing](#contributing) |
+  |     [Tests](#tests)           |
+  |    [Questions](#questions)    |
+  |    [Credits](#credits)        |
+  |     [License](#license)       |
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+  ### Deployed Link: [Budget Tracker](https://salty-tundra-90790.herokuapp.com/)
+  
+  ## Description
+  
+ A Progressive Web App budget tracker with offline persistence.
+  
+  ## Installation
+  
+ To develop this, please run the npm install command from the command line within this root folder upon cloning. This app utilizes several NPM packages, so check the package.json to verify you have all the necessary dependencies.
+  
+  
+  ## Usage 
+  
 
-Offline Functionality:
+  Visiting the deployed link above will allow the user to keep track of their budget by adding and subtracting dollar amounts with label tags.  The user is also able to install this locally via Progressive Web App methods (add to desktop, etc) for offline use. Data changes persist via indexedDB and are batch posted upon online status. 
 
-  * Enter deposits offline
+  - ![Preview](/preview.png)
+  
+  
+  ## Contributing:
+   
+ Guidelines for contribution (if any): 
 
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+   Open Source Project, please feel free to utilize and modify  
+  
+  
+  ## Tests:
+  Command for running tests for this app:
+  
+ n/a
+  
+  
+  ## Questions:
+  [epachols's Github](https://github.com/epachols/)
+  
+  
+  ## Credits:
+   Collaborating Credits:
+  
+ none
+  
+  ## License information:
+  
+ 
+  CC0 ![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png) [License Document](https://creativecommons.org/publicdomain/zero/1.0/)
+  
+  [https://choosealicense.com/](https://choosealicense.com/)
+  
+  ---
+  
+  |Thank you!         |
+  --------------------
+  |🏆 &#x1F981; epachols &#x1F981; 🏆|
+  
